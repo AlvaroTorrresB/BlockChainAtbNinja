@@ -28,7 +28,7 @@ public class BlockChainApp {
 		//Generacion del bloque 2
 		Block block2=new Block();
 			block2.setLinkHash(block1.getHash());  //Asignación del Hash del bloque previo
-			block2.setData(new Data("REF00002"));   //Asignación de la información del bloque
+			block2.setData(new Data("REF00003"));   //Asignación de la información del bloque
 			block2=srv.linkBlockToTheChain(block2); //Generación del hash del bloque y vinculación a la cadena
 			
 		//Sacamos por consola la información de la cadena
