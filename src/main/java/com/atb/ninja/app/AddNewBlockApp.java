@@ -32,7 +32,6 @@ public class AddNewBlockApp {
 			
 			e.printStackTrace();
 		}
-
 	}
 
 }
